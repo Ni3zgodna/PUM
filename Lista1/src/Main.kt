@@ -114,8 +114,6 @@ fun Armstrong(n: Int): Boolean {
         liczba /= 10
     }
 
-    println(s)
-
     return when {
         s == n -> true
         else -> false
